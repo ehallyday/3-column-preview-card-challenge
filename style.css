@@ -16,7 +16,7 @@ body{
     font-size: 1.24rem;
     line-height: 1.5;
 
-    width: 0 auto;
+    width: auto;
     background-color:  hsl(0, 0%, 95%)
 ;
 
@@ -30,7 +30,7 @@ body{
     margin: 0 auto;
     margin-block: 100px;
     width: 80%;
-    max-width: 750px;
+    max-width: 46.875rem;
   
    
 }
@@ -68,7 +68,7 @@ h1{
     font-size: 2.5rem;
     font-weight: 500;
     text-transform: uppercase;
-    font-family: 'Big Shoulders'; 
+    font-family: 'Big Shoulders', sans-serif; 
     
 }
 
@@ -107,7 +107,7 @@ button:hover{
     color:  hsl(0, 0%, 95%);
 }
 
-@media (max-width:750px) {
+@media (max-width:46.875rem) {
     .container{
         flex-direction: column;
         width: 60%;
