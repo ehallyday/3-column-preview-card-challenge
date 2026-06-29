@@ -16,9 +16,9 @@ body{
     font-size: 1.24rem;
     line-height: 1.5;
 
+    
     width: auto;
-    background-color:  hsl(0, 0%, 95%)
-;
+    background-color:  hsl(0, 0%, 95%);
 
 }
 
@@ -29,32 +29,34 @@ body{
 
     margin: 0 auto;
     margin-block: 100px;
-    width: 80%;
-    max-width: 46.875rem;
+    width: 100%;
+    max-width: 50rem;
   
    
 }
 
 .sedans{
-    color: #fff;
+    color: #ffffff;
     padding: 2em;
     width: 100%;
+
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: hsl(31, 77%, 52%);
 }
 
 .suv{
-    color: #fff;
+    color: #ffffff;
     padding: 2em;
     width: 100%;
     background-color: hsl(184, 100%, 22%);
 }
 
 .luxury{
-    color: #fff;
+    color: #ffffff;
     padding: 2em;
     width: 100%;
+
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: hsl(179, 100%, 13%);
@@ -84,7 +86,7 @@ p{
     padding: 0.6em;
     border-radius: 50px;
     border:  hsl(0, 0%, 95%) solid 2px;
-    font-family: 'Lexend Deca'; 
+    font-family: 'Lexend Deca', sans-serif; 
 }
 
 .sedans button{
